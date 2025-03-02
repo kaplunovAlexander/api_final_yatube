@@ -24,17 +24,17 @@ cd api_final_yatube
 Cоздать и активировать виртуальное окружение:
 
 ```
-py -x.y -m venv venv
+python3 -m venv env
 ```
 
 ```
-source venv/scripts/activate
+source env/bin/activate
 ```
 
 Установить зависимости из файла requirements.txt:
 
 ```
-python -m pip install --upgrade pip
+python3 -m pip install --upgrade pip
 ```
 
 ```
@@ -44,13 +44,13 @@ pip install -r requirements.txt
 Выполнить миграции:
 
 ```
-python manage.py migrate
+python3 manage.py migrate
 ```
 
 Запустить проект:
 
 ```
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 Теперь проект доступен по адресу [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
