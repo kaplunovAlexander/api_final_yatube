@@ -69,6 +69,7 @@ URL: `/api/v1/posts/`
 URL: `/api/v1/posts/`  
 Тело запроса:
 { "text": "Текст поста", "group": 1 }
+
 Ответ:
 { "id": 1, "text": "Текст поста", "pub_date": "20XX-XX-XXTXX:XX:XXZ", "author": "username", "group": 1 }
 
@@ -78,5 +79,6 @@ URL: `/api/v1/posts/`
 URL: `/api/v1/follow/`  
 Тело запроса:
 { "following": "username_to_follow" }
+
 Ответ:
 { "user": "username", "following": "username_to_follow" }
